@@ -1,0 +1,168 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.navCenter {
+  width: 90vw;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+.navBarList.navBarMenu.li.a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: auto;
+}
+
+.colorFlipperReload:hover {
+  cursor: pointer;
+}
+
+/* ---------- BUTTON ----------- */
+
+.backgroundContainer,
+#backgroundContainer {
+  width: 100%;
+  height: 916px;
+  max-height: 100%;
+  max-width: 100%;
+  place-items: center;
+  background-color: #B0171F; /* FIRST TEST USING INDIAN RED  */
+}
+
+.buttonContainer {
+  width: 40%;
+  display: block;
+  place-items: center;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.buttonChange {
+  color: black;
+}
+
+.buttonToggle {
+  width: 150px;
+  height: 50px;
+  margin: 40px auto;
+  display: block;
+  border-radius: 50px;
+  background: transparent;
+  font-weight: 600;
+  border-color: #1a1a1a;
+  outline: none;
+}
+
+.buttonToggle:hover,
+.buttonToggle:focus {
+  background-color: #1a1a1a;
+  color: white;
+  outline: none;
+  transition: ease-in-out .2s;
+}
+
+.footerContainer {
+  width: 290px;
+  display: block;
+  justify-content: center;
+  place-items: center;
+  margin: 280px auto 0px;
+  background-color: #1a1a1a;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+/* ------- TEXT AND FONT ------- */
+.h2Box {
+  background-color: #1a1a1a;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.backgroundColorText,
+.creditsText {
+  color: white;
+  text-align: center;
+}
+
+.backgroundColorText {
+  font-size: 1.5rem;
+}
+
+.listLinks {
+  display: block;
+  justify-content: space-between;
+  padding: 10px 20px 0px 20px;
+  color: #1a1a1a;
+}
+
+.listLinks:hover {
+  text-decoration: underline;
+  color: #1a1a1a;
+}
+
+.colorName {
+  color: #B0171F; /* FIRST TEST USING INDIAN RED  */
+}
+
+h6 {
+  display: inline-block;
+}
+
+.h6Wrapper {
+  justify-content: space-around;
+  margin: auto;
+  display: flex;
+}
+
+h6.h6HEX {
+  text-align: left;
+}
+
+h6.h6RGBA {
+  text-align: right;
+}
+
+.emptyClass {
+}
+
+.h5Wrapper {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+
+h5.colorHEX {
+  text-align: left;
+  display: block;
+}
+
+h5.colorRGB {
+  text-align: right;
+  display: block;
+}
+
+p.creditsPara,
+p.resourcesPara {
+  color: white;
+  text-align: center;
+  font-size: .75rem;
+  margin: 0;
+}
